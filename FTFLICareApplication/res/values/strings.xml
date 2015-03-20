@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FTFLICareApplication</string>
+    <string name="general_fragment_text">This is general fragment</string>
+    <string name="vaccination_fragment_text">This is vaccination fragment</string>
+    <string name="growth_fragment_text">This is growth fragment</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="home_text">FTFL Navigation Drawer</string>
+    <string name="action_settings">Settings</string>
+    
+    <string-array name="drawer_menu_array">
+        <item>Profile</item>
+        <item>Health Tips</item>
+       <!--  <item>Vaccination Details</item>
+        <item>Care Center</item>
+        <item>About Us</item> -->
+        
+        
+          
+       <!--  <item>create</item> -->
+    </string-array>
+ 	 <string name="textWeight">Weight</string>
+    <string name="textName">Name</string>
+    <string name="phone">Phone</string>
+    <string name="textHeight">Height</string>
+    <string name="hintName">enter name</string>
+    <string name="buttonSubmit">SAVE</string>
+    <string name="hintHeight">enter height(cm)</string>
+    <string name="gender">Gender</string>
+    <string name="textCreateProfileHeader"> Create Profile</string>
+    <string name="checkbox">CheckBox</string>
+    <string name="textGender">Gender</string>
+    <string name="radioButtonMale">Male</string>
+    <string name="radioButtonFemale">Female</string>
+    <string name="textAge">Age</string>
+    <string name="hintWeight">enter weight(kg)</string>
+    <string name="hintAge">enter age</string>
+    <string name="textBloodGroup">Blood Group</string>
+    <string name="hintBloodGroup">enter blood group</string>
+    <string name="addDietTextView">Add Your Diet</string>
+    <string name="feastNameText">Meal Course</string>
+    <string name="feastNameView">enter meal course</string>
+    <string name="pickDayTextView">"Pick a Day"</string>
+    <string name="pickTimeTextView">"Pick a Time"</string>
+    <string name="dateEditText">"Select date"</string>
+    <string name="timeEditText">"Select time"</string>
+    <string name="menuView">"Add menu"</string>
+    <string name="alarmCheckBox">"Set alarm"</string>
+    <string name="addDietChartButton">"Add Diet"</string>
+    <string name="menuText">"Menu "</string>
+    <string name="headerDoctorProfile">Doctor Profile</string>
+    <string name="tvDoctorName">Name</string>
+    <string name="etDoctorName">enter doctor name</string>
+    <string name="tvSpeciality">Speciality</string>
+    <string name="etSpeciality">enter speciality</string>
+    <string name="tvPhone">Phone</string>
+    <string name="phoneEditText">enter phone number</string>
+    <string name="emailTextView">Email</string>
+    <string name="emailEditText">enter email</string>
+    <string name="chamberTextView">Chamber</string>
+    <string name="chamberEditText">enter chamber location</string>
+    <string name="medicalhistoryTextView">Medical History</string>
+    <string name="takePresciptionPhoto">Capture Prescription</string>
+    <string name="dateTextView">Date</string>
+    <string name="capturedImage">capture image</string>
+    <string name="doctorTextView">Doctor</string>
+    <string name="doctorEditText">enter doctor name</string>
+    <string name="purposeTextView">Purpose</string>
+    <string name="purposeEditText">enter purpose</string>
+    
+    
+     <!-- View Diet  -->
+    <string name="selectedDate">Selected Date</string>
+    <string name="selectedTime">Selected Time</string>
+   
+     <string name="options">Options</string>
+     <string name="delete_dialog_title">Confirm Delet ???</string> 
+     <string name="delete_dialog_message">Are you sure you want delete this??</string> 
+     <string name="yes">Yes</string> 
+     <string name="no">No</string> 
+     <string name="cancel">Cancel</string> 
+     <string name="male">Male</string> 
+     <string name="female">Female</string> 
+     
+      <!-- Edit Diet  -->
+    <string name="selectedDate">Selected Date</string>
+    <string name="selectedTime">Selected Time</string>
+     <string name="editDietTextView">Edit Diet</string>
+   
+     
+       <!-- vaccine -->
+
+    <string name="vaccinationTextView">Add Vaccination Information</string>
+    <string name="vaccineNameTextView">Vaccine Name</string>
+    <string name="vaccineNameEditText">Enter Vaccine Name</string>
+    <string name="vaccineStatusTextView">Note</string>
+    <string name="vaccineStatusEditText">current status</string>
+    <string name="vaccineText">Vaccine</string>
+     
+    <!-- vaccination Spinner -->
+    <string-array name="sp">
+        <item>Hapatytis A</item>
+        <item>Hapatytis B</item>
+        <item>Hapatytis C</item>
+        <item>Hapatytis C</item>
+        <item>Hapatytis E</item>
+      
+    </string-array>
+    
+    <!-- vaccination Spinner -->
+    <string-array name="vaccineListSpinner">
+        <item>Today</item>
+        <item>Upcoming</item>
+        <item>Given</item>
+       
+      
+    </string-array>
+
+   <!-- Strings into programm  -->
+   
+    <string name="title">View Diet Chart Details</string>
+    <string name="view_diet">View diet</string>
+    <string name="edit_diet">Edit diet</string>
+    <string name="delete_diet">Delete diet</string>
+     <string name="options">Options</string>
+     <string name="delete_dialog_title">Confirm Delet ???</string> 
+     <string name="delete_dialog_message">Are you sure you want delete this??</string> 
+     <string name="yes">Yes</string> 
+     <string name="no">No</string> 
+     <string name="cancel">Cancel</string> 
+     <string name="male">Male</string> 
+     <string name="female">Female</string> 
+</resources>

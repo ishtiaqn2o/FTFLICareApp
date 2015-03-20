@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+      android:layout_marginLeft="5dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+      
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/addDietTextView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:text="@string/title"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+            </LinearLayout>
+        
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+         
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/feastNameTextView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:text="@string/feastNameText"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                />
+
+            <TextView
+                android:id="@+id/showFeastNameTextView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+           	    
+                 android:gravity="center_vertical"
+                android:inputType="text"
+                android:textColor="#000000"
+                android:typeface="monospace" />
+        </LinearLayout>
+
+       
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/pickDayTextView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:gravity="center_vertical"
+            android:text="@string/selectedDate"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/selectedDateTextView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+           
+            android:inputType="text"
+             android:gravity="center_vertical"
+            android:textColor="#000000"
+            android:typeface="monospace" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/pickTimeTextView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:textSize="15sp"
+             android:gravity="center_vertical"
+            android:text="@string/selectedTime"
+            android:textColor="#000000"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/selectedTimeTextView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+             android:gravity="center_vertical"
+           
+            android:inputType="text"
+            android:textColor="#000000"
+            android:typeface="monospace" />
+    </LinearLayout>
+     <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/menuTextView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:textSize="15sp"
+                 android:gravity="center_vertical"
+                android:text="@string/menuText"
+                android:textColor="#000000"
+                android:typeface="monospace" />
+
+            <TextView
+                android:id="@+id/showMenuTextView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                 android:gravity="center_vertical"
+              
+                android:inputType="text"
+                android:textColor="#000000"
+                android:typeface="monospace" />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:orientation="vertical" >
+
+        <CheckBox
+            android:id="@+id/alarmSetCheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            
+            android:text="@string/alarmCheckBox"
+            android:textColor="#000000"
+            android:typeface="monospace" />
+        <TextView
+                android:id="@+id/menuEditText"
+              android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+                 android:gravity="center_vertical"
+              
+                android:inputType="text"
+                android:textColor="#000000"
+                android:typeface="monospace" />
+
+    </LinearLayout>
+
+</LinearLayout>

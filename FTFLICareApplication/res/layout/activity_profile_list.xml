@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   
+    android:orientation="vertical" >
+    
+         
+
+<LinearLayout
+       
+         android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+             android:layout_marginLeft="25dp"
+     android:layout_marginRight="25dp"
+        android:orientation="vertical" >
+   
+    
+    
+         
+
+          <TextView
+          android:id="@+id/vaccinationListView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+         android:textColor="#000000"
+        android:layout_weight=".35"
+        android:textSize="30sp"
+        android:text="+ ADD Profile"
+        android:clickable="true"
+          android:onClick="add"
+        android:layout_marginTop="25dp"
+        android:gravity="center_vertical"
+        />
+          <TextView
+          android:id="@+id/vaccinationListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+         android:textColor="#000000"
+        android:layout_weight=".35"
+        android:textSize="15sp"
+        android:text="you can create individual profile for your family member"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_vertical"
+        />
+    <ListView
+        android:id="@+id/profileList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3" >
+    </ListView>
+    
+        
+       </LinearLayout>
+
+    
+     </LinearLayout>
